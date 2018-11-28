@@ -11,14 +11,11 @@ public class Hw4 {
 	int b = sc.nextInt();
 	System.out.println("Enter (c) side");
 	int c = sc.nextInt();
-	if ((a+b)>c && (c+b)>a && (a+c)>b )
-	{
+	if ((a+b)>c && (c+b)>a && (a+c)>b ){
 		System.out.println("It's a triangle");
-	}
-	else 
-	{
+	}else {
 		System.out.println("It's not a triangle");
 	}
-	}
+	    }
 
 }
