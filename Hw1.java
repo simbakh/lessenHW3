@@ -21,24 +21,17 @@ int d;
 d = sc.nextInt();
 int max;
  max = a;
- if (b > max  && b > d && b > c )
- {
+ if (b > max  && b > d && b > c ){
 	 max= b;
  }
- if (c > max  && c > d )
- {
+ if (c > max  && c > d ){
 	 max= c;
  }
- if (d > max )
- {
+ if (d > max ){
 	 max= d;
  }
  System.out.println("Max = " + max);
- 
- 
- 
- 
-	}
+ 	}
 	
 
 }
